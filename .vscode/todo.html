@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo Manager</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Ajout de la feuille de style -->
+</head>
+<body>
+    <h1>Todo Manager</h1>
+    <div id="todoForm">
+        <label for="todoName">Name:</label>
+        <input type="text" id="todoName"><br><br>
+        <label for="todoContent">Content:</label>
+        <input type="text" id="todoContent"><br><br>
+        <button onclick="addTodo()" id="addTodoButton">Add Todo</button> 
+    </div>
+
+    <ul id="todoList"></ul>
+
+    <script src="todo.js"></script>
+</body>
+</html>
